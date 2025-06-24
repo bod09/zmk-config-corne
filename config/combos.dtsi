@@ -21,3 +21,6 @@ compatible = "zmk,combos";
 
 /* misc */
 COMBO(esc, &kp ESC, 0 1, 0)
+
+/* bluetooth */
+COMBO(bt_clear, &bt BT_CLR, 32 33, 1)
