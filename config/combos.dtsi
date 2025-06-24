@@ -20,4 +20,4 @@ compatible = "zmk,combos";
   };
 
 /* misc */
-COMBO(esc, &kp ESC, 0 1, <-1>)
+COMBO(esc, &kp ESC, 0 1, 0)
