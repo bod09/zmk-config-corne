@@ -1,7 +1,7 @@
 ## My Keymap
 
-This keymap is automatically generated using the **[Keymap Drawer](https://github.com/caksoylar/keymap-drawer)** tool.
+This keymap visualization is automatically generated using the **[Keymap Drawer](https://github.com/caksoylar/keymap-drawer)** tool.
 
-![Corne Keymap Diagram](keymap.svg)
+![Corne Keymap Diagram](keymap-drawer/corne.svg)
 
 ---
