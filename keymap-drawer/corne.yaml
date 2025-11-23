@@ -45,11 +45,11 @@ layers:
   - {t: ▽, type: trans}
   lower:
   - TAB
-  - '6'
+  - {t: ▽, type: trans}
   - '7'
   - '8'
   - '9'
-  - '0'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - UP
@@ -57,11 +57,11 @@ layers:
   - {t: ▽, type: trans}
   - BSPC
   - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
+  - {t: ▽, type: trans}
   - '4'
   - '5'
+  - '6'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
   - DOWN
@@ -69,10 +69,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '0'
+  - '1'
+  - '2'
+  - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
