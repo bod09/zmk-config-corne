@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - BSPC
-  - LSHFT
+  - {t: ▽, type: trans}
   - {t: A, h: LWIN}
   - {t: S, h: LALT}
   - {t: D, h: LCTRL}
@@ -25,7 +25,7 @@ layers:
   - {t: L, h: RALT}
   - {t: ;, h: RWIN}
   - ''''
-  - LCTRL
+  - {t: ▽, type: trans}
   - Z
   - X
   - C
@@ -37,12 +37,12 @@ layers:
   - .
   - /
   - DEL
-  - LGUI
+  - {t: ▽, type: trans}
   - lower
   - SPACE
   - RET
-  - {t: RET, h: raise}
-  - RALT
+  - {t: BSPC, h: raise}
+  - {t: ▽, type: trans}
   lower:
   - TAB
   - '1'
@@ -56,7 +56,7 @@ layers:
   - '9'
   - '0'
   - BSPC
-  - LSHFT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -68,7 +68,7 @@ layers:
   - UP
   - RIGHT
   - {t: ▽, type: trans}
-  - LCTRL
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -80,12 +80,12 @@ layers:
   - BT NXT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LGUI
+  - {t: ▽, type: trans}
   - {type: held}
   - SPACE
   - RET
   - {t: ▽, type: trans}
-  - RALT
+  - {t: ▽, type: trans}
   raise:
   - TAB
   - '!'
@@ -123,12 +123,12 @@ layers:
   - '}'
   - '|'
   - '~'
-  - LGUI
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - SPACE
   - RET
   - {type: held}
-  - RALT
+  - {t: ▽, type: trans}
 combos:
 - p: [0, 1]
   k: ESC
