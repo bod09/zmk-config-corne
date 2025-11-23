@@ -65,27 +65,27 @@
                 };
                 lower_layer {
                         bindings = <
-// ╭───────┬──────┬──────┬──────┬──────┬─────────╮   ╭───────┬────────┬──────────┬──────────┬──────┬────────╮
-// |  TAB  |      |  7   |  8   |  9   |         |   |       |        |    UP    |          |      |  BSPC  |
-    &kp TAB &trans &kp N7 &kp N8 &kp N9  &trans       &trans   &trans    &kp UP     &trans   &trans &kp BSPC
-// ├───────┼──────┼──────┼──────┼──────┤─────────┤   ├───────┼────────┼──────────┼──────────┼──────┤────────┤
-// |       |      |  4   |  5   |  6   |         |   |       |  LFT   |   DWN    |   RGT    |      |        |
-    &trans  &trans &kp N4 &kp N5 &kp N6  &trans       &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-// ├───────┼──────┼──────┼──────┼──────┤─────────┤   ├───────┼────────┼──────────┼──────────┼──────┤────────┤
-// |       |  0   |  1   |  2   |  3   |         |   |       |        |  BTPRV   |  BTNXT   |      |        |
-    &trans  &kp N0 &kp N1 &kp N2 &kp N3  &trans       &trans   &trans  &bt BT_PRV &bt BT_NXT &trans  &trans
-// ╰───────┴──────┴──────┼──────┼──────┤─────────┤   ├───────┼────────┼──────────┼──────────┴──────┴────────╯
-//                       |      |      |   SPC   |   |  ENT  |        |          |
-                          &trans &trans &kp SPACE     &kp RET  &trans    &trans
-//                       ╰──────┴──────┴─────────╯   ╰───────┴────────┴──────────╯
+// ╭───────┬──────┬──────┬──────┬──────┬──────╮   ╭──────┬────────┬──────────┬──────────┬─────────┬────────╮
+// |       |      |  7   |  8   |  9   |      |   |      |  Home  |  PG DN   |  PG UP   |   END   |        |
+    &trans  &trans &kp N7 &kp N8 &kp N9 &trans     &trans &kp HOME &kp PG_DN  &kp PG_UP   &kp END   &trans
+// ├───────┼──────┼──────┼──────┼──────┤──────┤   ├──────┼────────┼──────────┼──────────┼─────────┤────────┤
+// |       |      |  4   |  5   |  6   |      |   |      |  LFT   |   DWN    |    UP    |   RGT   |        |
+    &trans  &trans &kp N4 &kp N5 &kp N6 &trans     &trans &kp LEFT  &kp DOWN    &kp UP   &kp RIGHT  &trans
+// ├───────┼──────┼──────┼──────┼──────┤──────┤   ├──────┼────────┼──────────┼──────────┼─────────┤────────┤
+// |       |  0   |  1   |  2   |  3   |      |   |      |        |  BTPRV   |  BTNXT   |         |        |
+    &trans  &kp N0 &kp N1 &kp N2 &kp N3 &trans     &trans  &trans  &bt BT_PRV &bt BT_NXT  &trans    &trans
+// ╰───────┴──────┴──────┼──────┼──────┤──────┤   ├──────┼────────┼──────────┼──────────┴─────────┴────────╯
+//                       |      |      |      |   |      |        |          |
+                          &trans &trans &trans     &trans  &trans    &trans
+//                       ╰──────┴──────┴──────╯   ╰──────┴────────┴──────────╯
                         >;
                 };
 
                 raise_layer {
                         bindings = <
 // ╭─────────┬────────┬──────┬────────┬────────┬─────────╮   ╭─────────┬─────────┬─────────┬────────┬────────┬─────────╮
-// |   TAB   |   !    |  @   |   #    |   $    |    %    |   |    ^    |    &    |    *    |   (    |   )    |  BSPC   |
-    &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT     &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR &kp BSPC
+// |         |   !    |  @   |   #    |   $    |    %    |   |    ^    |    &    |    *    |   (    |   )    |         |
+     &trans   &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT     &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR  &trans
 // ├─────────┼────────┼──────┼────────┼────────┤─────────┤   ├─────────┼─────────┼─────────┼────────┼────────┤─────────┤
 // |         |        |      |        |        |         |   |    -    |    =    |    [    |   ]    |   \    |    `    |
      &trans    &trans  &trans  &trans   &trans   &trans       &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT &kp BSLH &kp GRAVE
@@ -93,8 +93,8 @@
 // |         |        |      |        |        |         |   |    _    |    +    |    {    |   }    |  "|"   |    ~    |
      &trans    &trans  &trans  &trans   &trans   &trans       &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp PIPE &kp TILDE
 // ╰─────────┴────────┴──────┼────────┼────────┤─────────┤   ├─────────┼─────────┼─────────┼────────┴────────┴─────────╯
-//                           |        |        |  SPC    |   |   ENT   |         |         |
-                               &trans  &trans   &kp SPACE      &kp RET   &trans    &trans
+//                           |        |        |         |   |         |         |         |
+                               &trans  &trans    &trans        &trans    &trans    &trans
 //                           ╰────────┴────────┴─────────╯   ╰─────────┴─────────┴─────────╯
                         >;
                 };
