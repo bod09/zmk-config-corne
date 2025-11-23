@@ -1,17 +1,3 @@
-number_row:
-  k01: '1 | !'
-  k02: '2 | @'
-  k03: '3 | #'
-  k04: '4 | $'
-  k05: '5 | %'
-  k06: '6 | ^'
-  k07: '7 | &'
-  k08: '8 | *'
-  k09: '9 | ('
-  k10: '0 | )'
-  k11: '- | _'
-  k12: '= | +'
-
 draw_config:
   footer_text: 'Created with <a href="https://github.com/caksoylar/keymap-drawer">keymap-drawer</a>'
   dark_mode: auto
