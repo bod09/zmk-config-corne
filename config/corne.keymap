@@ -66,14 +66,14 @@
                 lower_layer {
                         bindings = <
 // ╭───────┬──────┬──────┬──────┬──────┬─────────╮   ╭───────┬────────┬──────────┬──────────┬──────┬────────╮
-// |  TAB  |  6   |  7   |  8   |  9   |    0    |   |       |        |    UP    |          |      |  BSPC  |
-    &kp TAB &kp N6 &kp N7 &kp N8 &kp N9  &kp N0       &trans   &trans    &kp UP     &trans   &trans &kp BSPC
+// |  TAB  |      |  7   |  8   |  9   |         |   |       |        |    UP    |          |      |  BSPC  |
+    &kp TAB &trans &kp N7 &kp N8 &kp N9  &trans       &trans   &trans    &kp UP     &trans   &trans &kp BSPC
 // ├───────┼──────┼──────┼──────┼──────┤─────────┤   ├───────┼────────┼──────────┼──────────┼──────┤────────┤
-// |       |  1   |  2   |  3   |  4   |    5    |   |       |  LFT   |   DWN    |   RGT    |      |        |
-    &trans  &kp N1 &kp N2 &kp N3 &kp N4  &kp N5       &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+// |       |      |  4   |  5   |  6   |         |   |       |  LFT   |   DWN    |   RGT    |      |        |
+    &trans  &trans &kp N4 &kp N5 &kp N6  &trans       &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
 // ├───────┼──────┼──────┼──────┼──────┤─────────┤   ├───────┼────────┼──────────┼──────────┼──────┤────────┤
-// |       |      |      |      |      |         |   |       |        |  BTPRV   |  BTNXT   |      |        |
-    &trans  &trans &trans &trans &trans  &trans       &trans   &trans  &bt BT_PRV &bt BT_NXT &trans  &trans
+// |       |  0   |  1   |  2   |  3   |         |   |       |        |  BTPRV   |  BTNXT   |      |        |
+    &trans  &kp N0 &kp N1 &kp N2 &kp N3  &trans       &trans   &trans  &bt BT_PRV &bt BT_NXT &trans  &trans
 // ╰───────┴──────┴──────┼──────┼──────┤─────────┤   ├───────┼────────┼──────────┼──────────┴──────┴────────╯
 //                       |      |      |   SPC   |   |  ENT  |        |          |
                           &trans &trans &kp SPACE     &kp RET  &trans    &trans
