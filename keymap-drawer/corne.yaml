@@ -69,8 +69,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - F1
-  - F2
+  - {t: F1, h: F11}
+  - {t: F2, h: F12}
   - F3
   - F4
   - F5
