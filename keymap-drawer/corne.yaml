@@ -14,16 +14,16 @@ layers:
   - P
   - BSPC
   - LSHFT
-  - {t: LWIN, h: A}
-  - {t: LALT, h: S}
-  - {t: LCTRL, h: D}
-  - {t: LSHFT, h: F}
+  - {t: A, h: LWIN}
+  - {t: S, h: LALT}
+  - {t: D, h: LCTRL}
+  - {t: F, h: LSHFT}
   - G
   - H
-  - {t: RSHFT, h: J}
-  - {t: RCTRL, h: K}
-  - {t: RALT, h: L}
-  - {t: RWIN, h: ;}
+  - {t: J, h: RSHFT}
+  - {t: K, h: RCTRL}
+  - {t: L, h: RALT}
+  - {t: ;, h: RWIN}
   - ''''
   - LCTRL
   - Z
