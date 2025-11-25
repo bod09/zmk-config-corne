@@ -70,10 +70,10 @@
     &trans &mt F11 F1 &mt F12 F2 &mt F13 F3    &mt F14 F4     &mt F15 F5     &mt F16 F6   &mt F17 F7   &mt F18 F8 &mt F19 F9 &mt F20 F10 &trans
 // ├──────┼──────────┼──────────┼──────────┼─────────────────┤──────────┤   ├──────────┼──────────────┼──────────┼──────────┼───────────┤──────┤
 // |      |    1!    |    2@    |    3#    |       4$        |    5%    |   |    6^    |      7&      |    8*    |    9(    |     0)    |      |
-    &trans   &kp N1     &kp N2     &kp N3        &kp N4         &kp N5         &kp N6   &hml LSHIFT N7   &kp N8     &kp N9     &kp N0    &trans
+    &trans   &kp N1     &kp N2     &kp N3    &hml LSHIFT N4     &kp N5         &kp N6   &hml LSHIFT N7   &kp N8     &kp N9     &kp N0    &trans
 // ├──────┼──────────┼──────────┼──────────┼─────────────────┤──────────┤   ├──────────┼──────────────┼──────────┼──────────┼───────────┤──────┤
 // |      |    \|    |          |          |       -_        |    [{    |   |    }]    |      =+      |          |          |     '     |      |
-    &trans  &kp BSLH    &trans     &trans   &hml LSHIFT MINUS  &kp LBKT       &kp RBKT    &kp EQUAL      &trans     &trans     &kp SQT   &trans
+    &trans  &kp BSLH    &trans     &trans       &kp MINUS      &kp LBKT       &kp RBKT    &kp EQUAL      &trans     &trans     &kp SQT   &trans
 // ╰──────┴──────────┴──────────┼──────────┼─────────────────┤──────────┤   ├──────────┼──────────────┼──────────┼──────────┴───────────┴──────╯
 //                              |          |                 |          |   |          |              |          |
                                    &trans        &trans         &trans         &trans       &trans       &trans
