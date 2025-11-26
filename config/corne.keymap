@@ -12,6 +12,7 @@
 #define DEFAULT 0
 #define LOWER   1
 #define RAISE   2
+#define GAMING  3
 
 / {
 
@@ -97,6 +98,24 @@
 //                              |              |               |        |   |      |         |          |
                                      &trans         &trans      &mkp MB1     &trans  &trans    &trans
 //                              ╰──────────────┴───────────────┴────────╯   ╰──────┴─────────┴──────────╯
+                        >;
+                };
+
+                gaming_layer {
+                        bindings = <
+// ╭──────┬─────────┬─────────┬─────────┬─────────┬─────────╮   ╭──────┬──────┬──────┬──────┬──────┬──────╮
+// |      |   TAB   |    Q    |    W    |    E    |    R    |   |      |      |      |      |      |      |
+    &trans  &kp TAB    &kp W     &kp W     &kp E     &kp R       &trans &trans &trans &trans &trans &trans
+// ├──────┼─────────┼─────────┼─────────┼─────────┤─────────┤   ├──────┼──────┼──────┼──────┼──────┤──────┤
+// |      |  SHIFT  |    A    |    S    |    D    |    F    |   |      |      |      |      |      |      |
+    &trans &kp LSHFT   &kp A     &kp S     &kp S     &kp F       &trans &trans &trans &trans &trans &trans
+// ├──────┼─────────┼─────────┼─────────┼─────────┤─────────┤   ├──────┼──────┼──────┼──────┼──────┤──────┤
+// |      |  CTRL   |    Z    |    X    |    C    |    V    |   |      |      |      |      |      |      |
+    &trans &kp LCTRL   &kp Z     &kp X     &kp C     &kp V       &trans &trans &trans &trans &trans &trans
+// ╰──────┴─────────┴─────────┼─────────┼─────────┤─────────┤   ├──────┼──────┼──────┼──────┴──────┴──────╯
+//                            |         |         |   SPC   |   |      |      |      |
+                                &trans    &trans   &kp SPACE     &trans &trans &trans
+//                            ╰─────────┴─────────┴─────────╯   ╰──────┴──────┴──────╯
                         >;
                 };
         };
