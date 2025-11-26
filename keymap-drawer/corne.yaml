@@ -129,6 +129,49 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
+  gaming:
+  - {t: ▽, type: trans}
+  - TAB
+  - W
+  - W
+  - E
+  - R
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LSHFT
+  - A
+  - S
+  - S
+  - F
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LCTRL
+  - Z
+  - X
+  - C
+  - V
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - SPACE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [1, 2]
   k: ESC
@@ -139,6 +182,9 @@ combos:
 - p: [1, 2]
   k: '`'
   l: [lower]
+- p: [37, 40]
+  k: '&tog'
+  l: [default, gaming]
 - p: [32, 33]
   k: BT CLR
   l: [raise]
