@@ -132,7 +132,7 @@ layers:
   gaming:
   - {t: ▽, type: trans}
   - TAB
-  - W
+  - Q
   - W
   - E
   - R
@@ -146,7 +146,7 @@ layers:
   - LSHFT
   - A
   - S
-  - S
+  - D
   - F
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
