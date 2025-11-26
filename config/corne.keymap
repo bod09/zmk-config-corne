@@ -114,7 +114,7 @@
     &trans &kp LCTRL   &kp Z     &kp X     &kp C     &kp V       &trans &trans &trans &trans &trans &trans
 // ╰──────┴─────────┴─────────┼─────────┼─────────┤─────────┤   ├──────┼──────┼──────┼──────┴──────┴──────╯
 //                            |         |         |   SPC   |   |      |      |      |
-                                &trans    &trans   &kp SPACE     &trans &trans &trans
+                                &trans    &tog 3   &kp SPACE     &trans &trans &trans
 //                            ╰─────────┴─────────┴─────────╯   ╰──────┴──────┴──────╯
                         >;
                 };
