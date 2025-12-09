@@ -167,7 +167,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: gaming, h: toggle}
   - SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -183,8 +183,8 @@ combos:
   k: '`'
   l: [lower]
 - p: [37, 40]
-  k: '&tog'
-  l: [default, gaming]
+  k: {t: gaming, h: toggle}
+  l: [default]
 - p: [32, 33]
   k: BT CLR
   l: [raise]
