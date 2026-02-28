@@ -4,26 +4,26 @@ layers:
   - {t: ▽, type: trans}
   - Q
   - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
+  - F
   - P
+  - G
+  - J
+  - L
+  - U
+  - Y
+  - ;
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: A, h: LWIN}
-  - {t: S, h: LALT}
-  - {t: D, h: LCTRL}
-  - {t: F, h: LSHFT}
-  - G
+  - {t: R, h: LALT}
+  - {t: S, h: LCTRL}
+  - {t: T, h: LSHFT}
+  - D
   - H
-  - {t: J, h: RSHFT}
-  - {t: K, h: RCTRL}
-  - {t: L, h: RALT}
-  - {t: ;, h: RWIN}
+  - {t: N, h: RSHFT}
+  - {t: E, h: RCTRL}
+  - {t: I, h: RALT}
+  - {t: O, h: RWIN}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Z
@@ -31,7 +31,7 @@ layers:
   - C
   - V
   - B
-  - N
+  - K
   - M
   - ','
   - .
