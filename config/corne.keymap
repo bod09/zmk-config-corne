@@ -95,7 +95,7 @@
     &trans &trans  &trans   &trans    &trans    &trans      &trans &kp PSCRN &bt BT_PRV &bt BT_NXT  &trans   &trans
 // ╰──────┴──────┴────────┼─────────┼─────────┤────────┤   ├──────┼─────────┼──────────┼──────────┴─────────┴──────╯
 //                        |         |         |        |   |      |         |          |
-                            &trans    &trans   &mkp MB1     &trans   &trans    &trans
+                            &trans    &trans    &trans     &trans   &trans    &trans
 //                        ╰─────────┴─────────┴────────╯   ╰──────┴─────────┴──────────╯
                         >;
                 };
