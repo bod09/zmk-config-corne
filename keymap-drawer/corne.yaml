@@ -93,11 +93,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - HOME
-  - PG DN
   - PG UP
+  - HOME
+  - UP
   - END
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LWIN
@@ -105,11 +105,11 @@ layers:
   - LCTRL
   - LSHFT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PG DN
   - LEFT
   - DOWN
-  - UP
   - RIGHT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
