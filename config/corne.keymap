@@ -84,19 +84,19 @@
 
                 raise_layer {
                         bindings = <
-// ╭──────┬────────┬────────┬─────────┬─────────┬────────╮   ╭──────┬─────────┬──────────┬──────────┬─────────┬──────╮
-// |      |        |        |         |         |        |   |      |  Home   |  PG DN   |  PG UP   |   END   |      |
-    &trans  &trans   &trans   &trans    &trans    &trans      &trans &kp HOME  &kp PG_DN  &kp PG_UP   &kp END  &trans
-// ├──────┼────────┼────────┼─────────┼─────────┤────────┤   ├──────┼─────────┼──────────┼──────────┼─────────┤──────┤
-// |      |        |        |         |         |        |   |      |   LFT   |   DWN    |    UP    |   RGT   |      |
-    &trans &kp LWIN &kp LALT &kp LCTRL &kp LSHFT  &trans      &trans  &kp LEFT  &kp DOWN    &kp UP   &kp RIGHT &trans
-// ├──────┼────────┼────────┼─────────┼─────────┤────────┤   ├──────┼─────────┼──────────┼──────────┼─────────┤──────┤
-// |      |        |        |         |         |        |   |      |  PSCRN  |  BTPRV   |  BTNXT   |         |      |
-    &trans  &trans   &trans   &trans    &trans    &trans      &trans &kp PSCRN &bt BT_PRV &bt BT_NXT  &trans   &trans
-// ╰──────┴────────┴────────┼─────────┼─────────┤────────┤   ├──────┼─────────┼──────────┼──────────┴─────────┴──────╯
-//                        |         |         |        |   |      |         |          |
-                            &trans    &trans    &trans     &trans   &trans    &trans
-//                        ╰─────────┴─────────┴────────╯   ╰──────┴─────────┴──────────╯
+// ╭──────┬────────┬────────┬─────────┬─────────┬────────╮   ╭─────────┬─────────┬──────────┬──────────┬──────┬──────╮
+// |      |        |        |         |         |        |   |  PG UP  |  Home   |    UP    |   END    |      |      |
+    &trans  &trans   &trans   &trans    &trans    &trans      &kp PG_UP &kp HOME    &kp UP    &kp END   &trans  &trans
+// ├──────┼────────┼────────┼─────────┼─────────┤────────┤   ├─────────┼─────────┼──────────┼──────────┼──────┤──────┤
+// |      |        |        |         |         |        |   |  PG DN  |   LFT   |   DWN    |    RGT   |      |      |
+    &trans &kp LWIN &kp LALT &kp LCTRL &kp LSHFT  &trans      &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans &trans
+// ├──────┼────────┼────────┼─────────┼─────────┤────────┤   ├─────────┼─────────┼──────────┼──────────┼──────┤──────┤
+// |      |        |        |         |         |        |   |         |  PSCRN  |  BTPRV   |  BTNXT   |      |      |
+    &trans  &trans   &trans   &trans    &trans    &trans       &trans   &kp PSCRN &bt BT_PRV &bt BT_NXT &trans  &trans
+// ╰──────┴────────┴────────┼─────────┼─────────┤────────┤   ├─────────┼─────────┼──────────┼──────────┴──────┴──────╯
+//                          |         |         |        |   |         |         |          |
+                              &trans    &trans    &trans       &trans    &trans     &trans
+//                          ╰─────────┴─────────┴────────╯   ╰─────────┴─────────┴──────────╯
                         >;
                 };
 
